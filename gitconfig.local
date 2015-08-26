@@ -3,4 +3,7 @@
   email = erik@bluebox.net
 [alias]
   b = branch
-
+  unstage = reset HEAD
+  lg = log --graph --pretty=colored --abbrev-commit --date=relative
+[pretty]
+  colored = format: %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset

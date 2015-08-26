@@ -1,0 +1,23 @@
+brew_install_or_upgrade 'direnv'
+brew_install_or_upgrade 'tree'
+
+brew_install_or_upgrade 'wemux'
+
+brew_install_or_upgrade 'tig' 
+brew_install_or_upgrade 'golang'
+append_to_zshrc 'export PATH=$PATH:/usr/local/opt/go/libexec/bin'
+
+brew_install_or_upgrade 'rabbitmq'
+#brew_launchctl_restart 'rabbitmq'
+
+brew_install_or_upgrade 'mysql'
+#brew_launchctl_restart 'mysql'
+
+brew_install_or_upgrade 'docker'
+brew_install_or_upgrade 'docker-machine'
+
+brew_tap 'caskroom/cask'
+brew_install_or_upgrade 'brew-cask'
+
+#brew cask install google-chrome
+

@@ -1,0 +1,4 @@
+Plug 'Lokaltog/vim-powerline'
+Plug 'fatih/vim-go'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-vinegar'

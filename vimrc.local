@@ -6,3 +6,6 @@ endif
 let g:solarized_termcolors=256
 colorscheme solarized
 
+" Integrate vim-fugitive with Bluebox Github Enterprise install
+let g:fugitive_github_domains = ['https://github.blueboxgrid.com']
+

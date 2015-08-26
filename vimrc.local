@@ -10,3 +10,7 @@ colorscheme solarized
 " Integrate vim-fugitive with Bluebox Github Enterprise install
 let g:fugitive_github_domains = ['https://github.blueboxgrid.com']
 
+" bind \ (backward slash) to grep shortcut
+command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+
+nnoremap \ :Ag<SPACE>

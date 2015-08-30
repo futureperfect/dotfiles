@@ -3,4 +3,5 @@ Plug 'fatih/vim-go'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-vinegar'
 Plug 'nicholaides/words-to-avoid.vim'
+Plug 'elixir-lang/vim-elixir'
 

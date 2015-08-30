@@ -1,9 +1,10 @@
 [user]
   name = Erik Hollembeak
-  email = erik@bluebox.net
+  email = erik.hollembeak@gmail.com
 [alias]
   b = branch
   unstage = reset HEAD
   l = log --graph --pretty=colored --abbrev-commit --date=relative
+  workprofile = 'config user.email "erik@bluebox.net"'
 [pretty]
   colored = format: %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset

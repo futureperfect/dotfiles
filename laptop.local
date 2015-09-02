@@ -43,6 +43,8 @@ brew_install_or_upgrade 'tig'
 brew_install_or_upgrade 'golang'
 append_to_zshrc 'export PATH=$PATH:/usr/local/opt/go/libexec/bin'
 
+brew_install_or_upgrade 'elixir'
+
 brew_install_or_upgrade 'rabbitmq'
 #brew_launchctl_restart 'rabbitmq'
 

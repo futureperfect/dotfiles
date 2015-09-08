@@ -14,3 +14,13 @@ let g:fugitive_github_domains = ['https://github.blueboxgrid.com']
 command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 
 nnoremap \ :Ag<SPACE>
+
+" Run currently open cucumber feature file
+map <Leader>cf :w<cr>:!bundle exec cucumber %<cr>
+
+" Run current cucumber scenario
+map <Leader>cl :w<cr>:exe "!bundle exec cucumber %" . ":" . line(".")<cr>
+
+" Run all cucumber feature files
+map <Leader>ct :w<cr>:!bundle exec cucumber<cr>
+

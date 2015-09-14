@@ -18,3 +18,7 @@ unalias run-help
 autoload run-help
 HELPDIR=/usr/local/share/zsh/help
 
+
+export PATH="$HOME/.bin:$PATH"
+
+export PATH=$PATH:/usr/local/opt/go/libexec/bin

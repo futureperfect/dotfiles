@@ -24,3 +24,5 @@ map <Leader>cl :w<cr>:exe "!bundle exec cucumber %" . ":" . line(".")<cr>
 " Run all cucumber feature files
 map <Leader>ct :w<cr>:!bundle exec cucumber<cr>
 
+" Custom rspec invocation command
+let g:rspec_command = "!bundle exec rspec {spec}"

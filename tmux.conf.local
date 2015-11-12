@@ -3,3 +3,13 @@ set -g mouse-resize-pane on
 set -g mouse-select-pane on
 set -g mouse-select-window on
 
+# Center window list
+set -g status-justify centre
+
+# Allow reload of config without quitting
+unbind r
+bind r source-file ${HOME}/.tmux.conf; display-message "Config reloaded!"
+
+# Better split window commands
+bind-key | split-window -h
+bind-key - split-window -v

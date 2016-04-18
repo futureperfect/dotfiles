@@ -1,5 +1,3 @@
-#set -g mouse on
-
 # Center window list
 set -g status-justify centre
 

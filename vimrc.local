@@ -26,3 +26,9 @@ map <Leader>ct :w<cr>:!bundle exec cucumber<cr>
 
 " Custom rspec invocation command
 let g:rspec_command = "!bundle exec rspec {spec}"
+
+" Setup slime REPL
+let g:slime_target = "tmux"
+
+" Setup rust autoformat
+let g:rustfmt_autosave = 1

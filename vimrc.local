@@ -1,3 +1,8 @@
+" Highlight all matches after entering search pattern
+set hlsearch
+
+nmap <leader>h :nohlsearch<cr>
+
 " Colorscheme configuration
 if has('gui_running')
   set background=light

@@ -30,7 +30,7 @@ map <Leader>cl :w<cr>:exe "!bundle exec cucumber %" . ":" . line(".")<cr>
 map <Leader>ct :w<cr>:!bundle exec cucumber<cr>
 
 " Create indent command
-map <Leader>i mmgg=G`m<CR>
+map <Leader>i mmgg=G`m
 
 " Custom rspec invocation command
 let g:rspec_command = "!bundle exec rspec {spec}"

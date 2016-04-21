@@ -1,4 +1,4 @@
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
 Plug 'fatih/vim-go'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-vinegar'

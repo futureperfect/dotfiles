@@ -8,3 +8,7 @@
   workprofile = 'config user.email "erik@bluebox.net"'
 [pretty]
   colored = format: %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true

@@ -37,6 +37,8 @@ brew_cask_install_or_upgrade() {
 brew_install_or_upgrade 'direnv'
 brew_install_or_upgrade 'tree'
 
+brew_install_or_upgrade 'jq'
+
 brew_install_or_upgrade 'wemux'
 
 brew_install_or_upgrade 'tig' 
@@ -68,4 +70,4 @@ brew_install_or_upgrade 'brew-cask'
 #brew cask install google-chrome
 brew_cask_install_or_upgrade adium
 brew_cask_install_or_upgrade virtualbox
-
+brew_cask_install_or_upgrade licecap

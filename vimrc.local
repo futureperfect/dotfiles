@@ -16,7 +16,7 @@ colorscheme solarized
 let g:airline_powerline_fonts = 1
 
 " Integrate vim-fugitive with Bluebox Github Enterprise install
-let g:fugitive_github_domains = ['https://github.blueboxgrid.com']
+let g:fugitive_github_domains = ['https://github.ibm.com', 'https://github.blueboxgrid.com']
 
 " Run currently open cucumber feature file
 map <Leader>cf :w<cr>:!bundle exec cucumber %<cr>

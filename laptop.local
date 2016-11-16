@@ -39,9 +39,6 @@ brew_install_or_upgrade 'tree'
 
 brew_install_or_upgrade 'jq'
 
-brew_install_or_upgrade 'wemux'
-
-brew_install_or_upgrade 'tig' 
 brew_install_or_upgrade 'golang'
 append_to_zshrc 'export PATH=$PATH:/usr/local/opt/go/libexec/bin'
 
@@ -53,10 +50,6 @@ brew_install_or_upgrade 'rabbitmq'
 brew_install_or_upgrade 'mysql'
 #brew_launchctl_restart 'mysql'
 
-brew_install_or_upgrade 'docker'
-brew_install_or_upgrade 'docker-compose'
-brew_install_or_upgrade 'docker-machine'
-
 brew_install_or_upgrade 'phantomjs'
 
 brew_install_or_upgrade 'qemu'
@@ -67,7 +60,6 @@ brew_install_or_upgrade 'tmate'
 brew tap 'caskroom/cask'
 brew_install_or_upgrade 'brew-cask'
 
-#brew cask install google-chrome
 brew_cask_install_or_upgrade adium
 brew_cask_install_or_upgrade virtualbox
 brew_cask_install_or_upgrade licecap
